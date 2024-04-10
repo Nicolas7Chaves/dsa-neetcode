@@ -10,3 +10,5 @@ def insertionSort(arr):
             arr[j] = tmp
             j -= 1
     return arr
+
+# O(n^2) worst case Big O Time
