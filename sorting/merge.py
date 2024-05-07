@@ -1,4 +1,5 @@
 # Implementation of MergeSort
+#nlog n time complexity always
 def mergeSort(arr, s, e):
     if e - s + 1 <= 1:
         return arr

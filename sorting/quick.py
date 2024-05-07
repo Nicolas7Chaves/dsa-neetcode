@@ -1,4 +1,6 @@
 # Implementation of QuickSort
+# nlog n time complexity or n^2 worst case
+
 def quickSort(arr, s, e):
     if e - s + 1 <= 1:
         return

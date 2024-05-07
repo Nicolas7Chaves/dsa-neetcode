@@ -7,5 +7,5 @@ class Solution:
                 tmp = nums[j + 1]
                 nums[j+1] = nums[j]
                 nums[j] = tmp
-                j -= 1
+                j -= 1 
         return nums
